@@ -188,10 +188,7 @@
 		381699B617225BAF007E5B44 = {
 			isa = PBXGroup;
 			children = (
-				388EA398172914AF0078073D /* MessageUI.framework */,
-				388EA3771728F4710078073D /* AFNetworking */,
-				388EA2901728ED210078073D /* Security.framework */,
-				388EA1671727B9E80078073D /* andy.jpg */,
+				388EA39B17291AA90078073D /* Images */,
 				388EA1651727B8470078073D /* Integrations */,
 				38169A6017263F6C007E5B44 /* Accounts */,
 				38169A6817264EC2007E5B44 /* Folders */,
@@ -202,7 +199,6 @@
 				38169A1817226B27007E5B44 /* libssl.a */,
 				38169A01172268BA007E5B44 /* libiconv.dylib */,
 				38169A0317226AE2007E5B44 /* MailCore.xcodeproj */,
-				381699FF172268AE007E5B44 /* CFNetwork.framework */,
 				381699CA17225BAF007E5B44 /* UberMail */,
 				381699C117225BAF007E5B44 /* Frameworks */,
 				381699C017225BAF007E5B44 /* Products */,
@@ -220,6 +216,10 @@
 		381699C117225BAF007E5B44 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				388EA398172914AF0078073D /* MessageUI.framework */,
+				388EA3771728F4710078073D /* AFNetworking */,
+				388EA2901728ED210078073D /* Security.framework */,
+				381699FF172268AE007E5B44 /* CFNetwork.framework */,
 				381699C217225BAF007E5B44 /* UIKit.framework */,
 				381699C417225BAF007E5B44 /* Foundation.framework */,
 				381699C617225BAF007E5B44 /* CoreGraphics.framework */,
@@ -329,9 +329,8 @@
 		388EA1651727B8470078073D /* Integrations */ = {
 			isa = PBXGroup;
 			children = (
+				388EA39A17291A510078073D /* Providers */,
 				388EA1661727B8600078073D /* People */,
-				388EA3941728FBB90078073D /* SugarRest.h */,
-				388EA3951728FBB90078073D /* SugarRest.m */,
 			);
 			name = Integrations;
 			sourceTree = "<group>";
@@ -370,6 +369,23 @@
 				388EA38A1728F4710078073D /* UIImageView+AFNetworking.m */,
 			);
 			path = AFNetworking;
+			sourceTree = "<group>";
+		};
+		388EA39A17291A510078073D /* Providers */ = {
+			isa = PBXGroup;
+			children = (
+				388EA3941728FBB90078073D /* SugarRest.h */,
+				388EA3951728FBB90078073D /* SugarRest.m */,
+			);
+			name = Providers;
+			sourceTree = "<group>";
+		};
+		388EA39B17291AA90078073D /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				388EA1671727B9E80078073D /* andy.jpg */,
+			);
+			name = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

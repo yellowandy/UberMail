@@ -41,6 +41,9 @@
 
 - (void)viewWillAppear:(BOOL)animated
 {
+    NSLog(@"View will reapear");
+    NSUserDefaults * defaults = [NSUserDefaults standardUserDefaults];
+    self->accounts = [defaults objectForKey:@"mailAccounts"];
     [self.tableView reloadData];
     [super viewWillAppear:animated];
 }

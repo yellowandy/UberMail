@@ -77,7 +77,7 @@
                
                //Store the account
                NSUserDefaults * dfs = [NSUserDefaults standardUserDefaults];
-               NSMutableArray * currentAccounts = [dfs objectForKey:@"mailAccounts"];
+               NSMutableArray * currentAccounts = [[dfs objectForKey:@"mailAccounts"] mutableCopy];
                if(!currentAccounts) {
                    currentAccounts = [[NSMutableArray alloc] init];
                }
