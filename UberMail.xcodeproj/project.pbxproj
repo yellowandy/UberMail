@@ -18,7 +18,79 @@
 		381699D917225BAF007E5B44 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 381699D817225BAF007E5B44 /* Default@2x.png */; };
 		381699DB17225BAF007E5B44 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 381699DA17225BAF007E5B44 /* Default-568h@2x.png */; };
 		381699DE17225BAF007E5B44 /* UberMail.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 381699DC17225BAF007E5B44 /* UberMail.xcdatamodeld */; };
+		381699E717225BFB007E5B44 /* LQBAccountViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 381699E517225BFB007E5B44 /* LQBAccountViewController.m */; };
+		381699E817225BFB007E5B44 /* LQBAccountViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 381699E617225BFB007E5B44 /* LQBAccountViewController.xib */; };
+		381699EC17226199007E5B44 /* LQBNewAccountViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 381699EA17226199007E5B44 /* LQBNewAccountViewController.m */; };
+		381699ED17226199007E5B44 /* LQBNewAccountViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 381699EB17226199007E5B44 /* LQBNewAccountViewController.xib */; };
+		38169A00172268AE007E5B44 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 381699FF172268AE007E5B44 /* CFNetwork.framework */; };
+		38169A02172268BA007E5B44 /* libiconv.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 38169A01172268BA007E5B44 /* libiconv.dylib */; };
+		38169A0417226AE2007E5B44 /* MailCore.xcodeproj in Resources */ = {isa = PBXBuildFile; fileRef = 38169A0317226AE2007E5B44 /* MailCore.xcodeproj */; };
+		38169A1717226B18007E5B44 /* libmailcore.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 38169A1217226AFE007E5B44 /* libmailcore.a */; };
+		38169A1917226B27007E5B44 /* libssl.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 38169A1817226B27007E5B44 /* libssl.a */; };
+		38169A1B17226B37007E5B44 /* libsasl2.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 38169A1A17226B37007E5B44 /* libsasl2.a */; };
+		38169A1D17226B41007E5B44 /* libcrypto.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 38169A1C17226B41007E5B44 /* libcrypto.a */; };
+		38169A6517263FBA007E5B44 /* LQBLoadingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 38169A6417263FBA007E5B44 /* LQBLoadingView.m */; };
+		38169A67172641BF007E5B44 /* LoadingView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 38169A66172641BF007E5B44 /* LoadingView.xib */; };
+		38169A6B17264F52007E5B44 /* LQBFolderListController.m in Sources */ = {isa = PBXBuildFile; fileRef = 38169A6A17264F52007E5B44 /* LQBFolderListController.m */; };
+		388EA153172664CC0078073D /* LQBMessageListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 388EA152172664CC0078073D /* LQBMessageListViewController.m */; };
+		388EA155172783C10078073D /* MessageListCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 388EA154172783C10078073D /* MessageListCell.xib */; };
+		388EA158172785B50078073D /* LQBMessageListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 388EA157172785B50078073D /* LQBMessageListCell.m */; };
+		388EA15E172798630078073D /* LQBMessageDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 388EA15C172798630078073D /* LQBMessageDetailViewController.m */; };
+		388EA15F172798630078073D /* LQBMessageDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 388EA15D172798630078073D /* LQBMessageDetailViewController.xib */; };
+		388EA1631727B83F0078073D /* LQBPersonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 388EA1611727B83E0078073D /* LQBPersonViewController.m */; };
+		388EA1641727B83F0078073D /* LQBPersonViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 388EA1621727B83E0078073D /* LQBPersonViewController.xib */; };
+		388EA1681727B9E80078073D /* andy.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 388EA1671727B9E80078073D /* andy.jpg */; };
+		388EA2911728ED210078073D /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 388EA2901728ED210078073D /* Security.framework */; };
+		388EA38B1728F4710078073D /* AFHTTPClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 388EA3791728F4710078073D /* AFHTTPClient.m */; };
+		388EA38C1728F4710078073D /* AFHTTPRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 388EA37B1728F4710078073D /* AFHTTPRequestOperation.m */; };
+		388EA38D1728F4710078073D /* AFImageRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 388EA37D1728F4710078073D /* AFImageRequestOperation.m */; };
+		388EA38E1728F4710078073D /* AFJSONRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 388EA37F1728F4710078073D /* AFJSONRequestOperation.m */; };
+		388EA38F1728F4710078073D /* AFNetworkActivityIndicatorManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 388EA3811728F4710078073D /* AFNetworkActivityIndicatorManager.m */; };
+		388EA3901728F4710078073D /* AFPropertyListRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 388EA3841728F4710078073D /* AFPropertyListRequestOperation.m */; };
+		388EA3911728F4710078073D /* AFURLConnectionOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 388EA3861728F4710078073D /* AFURLConnectionOperation.m */; };
+		388EA3921728F4710078073D /* AFXMLRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 388EA3881728F4710078073D /* AFXMLRequestOperation.m */; };
+		388EA3931728F4710078073D /* UIImageView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 388EA38A1728F4710078073D /* UIImageView+AFNetworking.m */; };
+		388EA3961728FBB90078073D /* SugarRest.m in Sources */ = {isa = PBXBuildFile; fileRef = 388EA3951728FBB90078073D /* SugarRest.m */; };
+		388EA399172914AF0078073D /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 388EA398172914AF0078073D /* MessageUI.framework */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		38169A0F17226AFE007E5B44 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 38169A0317226AE2007E5B44 /* MailCore.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8DC2EF5B0486A6940098B216;
+			remoteInfo = MailCore;
+		};
+		38169A1117226AFE007E5B44 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 38169A0317226AE2007E5B44 /* MailCore.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F8618B5710DADB5C00C41188;
+			remoteInfo = "MailCore iOS";
+		};
+		38169A1317226AFE007E5B44 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 38169A0317226AE2007E5B44 /* MailCore.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F8DFCF4915801A5000C01975;
+			remoteInfo = Tests;
+		};
+		38169A1E17226B6A007E5B44 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 38169A0317226AE2007E5B44 /* MailCore.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = F8618B5610DADB5C00C41188;
+			remoteInfo = "MailCore iOS";
+		};
+		38169A2317226F00007E5B44 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 38169A0317226AE2007E5B44 /* MailCore.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 8DC2EF4F0486A6940098B216;
+			remoteInfo = MailCore;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		381699BF17225BAF007E5B44 /* UberMail.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UberMail.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -36,6 +108,58 @@
 		381699D817225BAF007E5B44 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		381699DA17225BAF007E5B44 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		381699DD17225BAF007E5B44 /* UberMail.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = UberMail.xcdatamodel; sourceTree = "<group>"; };
+		381699E417225BFB007E5B44 /* LQBAccountViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LQBAccountViewController.h; path = UberMail/LQBAccountViewController.h; sourceTree = "<group>"; };
+		381699E517225BFB007E5B44 /* LQBAccountViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LQBAccountViewController.m; path = UberMail/LQBAccountViewController.m; sourceTree = "<group>"; };
+		381699E617225BFB007E5B44 /* LQBAccountViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = LQBAccountViewController.xib; path = UberMail/LQBAccountViewController.xib; sourceTree = "<group>"; };
+		381699E917226199007E5B44 /* LQBNewAccountViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LQBNewAccountViewController.h; path = UberMail/LQBNewAccountViewController.h; sourceTree = "<group>"; };
+		381699EA17226199007E5B44 /* LQBNewAccountViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LQBNewAccountViewController.m; path = UberMail/LQBNewAccountViewController.m; sourceTree = "<group>"; };
+		381699EB17226199007E5B44 /* LQBNewAccountViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = LQBNewAccountViewController.xib; path = UberMail/LQBNewAccountViewController.xib; sourceTree = "<group>"; };
+		381699FF172268AE007E5B44 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		38169A01172268BA007E5B44 /* libiconv.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libiconv.dylib; path = usr/lib/libiconv.dylib; sourceTree = SDKROOT; };
+		38169A0317226AE2007E5B44 /* MailCore.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = MailCore.xcodeproj; path = ../MailCore/MailCore.xcodeproj; sourceTree = "<group>"; };
+		38169A1817226B27007E5B44 /* libssl.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libssl.a; path = "../MailCore/iOSPorts/ports/security/openssl/build/Release-iphoneos/libssl.a"; sourceTree = "<group>"; };
+		38169A1A17226B37007E5B44 /* libsasl2.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libsasl2.a; path = "../MailCore/iOSPorts/ports/security/cyrus-sasl/build/Release-iphoneos/libsasl2.a"; sourceTree = "<group>"; };
+		38169A1C17226B41007E5B44 /* libcrypto.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libcrypto.a; path = "../MailCore/iOSPorts/ports/security/openssl/build/Release-iphoneos/libcrypto.a"; sourceTree = "<group>"; };
+		38169A6317263FBA007E5B44 /* LQBLoadingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LQBLoadingView.h; sourceTree = "<group>"; };
+		38169A6417263FBA007E5B44 /* LQBLoadingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LQBLoadingView.m; sourceTree = "<group>"; };
+		38169A66172641BF007E5B44 /* LoadingView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoadingView.xib; sourceTree = "<group>"; };
+		38169A6917264F52007E5B44 /* LQBFolderListController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LQBFolderListController.h; sourceTree = "<group>"; };
+		38169A6A17264F52007E5B44 /* LQBFolderListController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LQBFolderListController.m; sourceTree = "<group>"; };
+		388EA151172664CC0078073D /* LQBMessageListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LQBMessageListViewController.h; sourceTree = "<group>"; };
+		388EA152172664CC0078073D /* LQBMessageListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LQBMessageListViewController.m; sourceTree = "<group>"; };
+		388EA154172783C10078073D /* MessageListCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MessageListCell.xib; sourceTree = "<group>"; };
+		388EA156172785B50078073D /* LQBMessageListCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LQBMessageListCell.h; sourceTree = "<group>"; };
+		388EA157172785B50078073D /* LQBMessageListCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LQBMessageListCell.m; sourceTree = "<group>"; };
+		388EA15B172798630078073D /* LQBMessageDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LQBMessageDetailViewController.h; sourceTree = "<group>"; };
+		388EA15C172798630078073D /* LQBMessageDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LQBMessageDetailViewController.m; sourceTree = "<group>"; };
+		388EA15D172798630078073D /* LQBMessageDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LQBMessageDetailViewController.xib; sourceTree = "<group>"; };
+		388EA1601727B83E0078073D /* LQBPersonViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LQBPersonViewController.h; sourceTree = "<group>"; };
+		388EA1611727B83E0078073D /* LQBPersonViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LQBPersonViewController.m; sourceTree = "<group>"; };
+		388EA1621727B83E0078073D /* LQBPersonViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LQBPersonViewController.xib; sourceTree = "<group>"; };
+		388EA1671727B9E80078073D /* andy.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = andy.jpg; sourceTree = "<group>"; };
+		388EA2901728ED210078073D /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		388EA3781728F4710078073D /* AFHTTPClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPClient.h; sourceTree = "<group>"; };
+		388EA3791728F4710078073D /* AFHTTPClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPClient.m; sourceTree = "<group>"; };
+		388EA37A1728F4710078073D /* AFHTTPRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPRequestOperation.h; sourceTree = "<group>"; };
+		388EA37B1728F4710078073D /* AFHTTPRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPRequestOperation.m; sourceTree = "<group>"; };
+		388EA37C1728F4710078073D /* AFImageRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFImageRequestOperation.h; sourceTree = "<group>"; };
+		388EA37D1728F4710078073D /* AFImageRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFImageRequestOperation.m; sourceTree = "<group>"; };
+		388EA37E1728F4710078073D /* AFJSONRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFJSONRequestOperation.h; sourceTree = "<group>"; };
+		388EA37F1728F4710078073D /* AFJSONRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFJSONRequestOperation.m; sourceTree = "<group>"; };
+		388EA3801728F4710078073D /* AFNetworkActivityIndicatorManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworkActivityIndicatorManager.h; sourceTree = "<group>"; };
+		388EA3811728F4710078073D /* AFNetworkActivityIndicatorManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFNetworkActivityIndicatorManager.m; sourceTree = "<group>"; };
+		388EA3821728F4710078073D /* AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworking.h; sourceTree = "<group>"; };
+		388EA3831728F4710078073D /* AFPropertyListRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFPropertyListRequestOperation.h; sourceTree = "<group>"; };
+		388EA3841728F4710078073D /* AFPropertyListRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFPropertyListRequestOperation.m; sourceTree = "<group>"; };
+		388EA3851728F4710078073D /* AFURLConnectionOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLConnectionOperation.h; sourceTree = "<group>"; };
+		388EA3861728F4710078073D /* AFURLConnectionOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLConnectionOperation.m; sourceTree = "<group>"; };
+		388EA3871728F4710078073D /* AFXMLRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFXMLRequestOperation.h; sourceTree = "<group>"; };
+		388EA3881728F4710078073D /* AFXMLRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFXMLRequestOperation.m; sourceTree = "<group>"; };
+		388EA3891728F4710078073D /* UIImageView+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+AFNetworking.h"; sourceTree = "<group>"; };
+		388EA38A1728F4710078073D /* UIImageView+AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+AFNetworking.m"; sourceTree = "<group>"; };
+		388EA3941728FBB90078073D /* SugarRest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SugarRest.h; sourceTree = "<group>"; };
+		388EA3951728FBB90078073D /* SugarRest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SugarRest.m; sourceTree = "<group>"; };
+		388EA398172914AF0078073D /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +167,14 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				388EA399172914AF0078073D /* MessageUI.framework in Frameworks */,
+				388EA2911728ED210078073D /* Security.framework in Frameworks */,
+				38169A1D17226B41007E5B44 /* libcrypto.a in Frameworks */,
+				38169A1B17226B37007E5B44 /* libsasl2.a in Frameworks */,
+				38169A1917226B27007E5B44 /* libssl.a in Frameworks */,
+				38169A1717226B18007E5B44 /* libmailcore.a in Frameworks */,
+				38169A02172268BA007E5B44 /* libiconv.dylib in Frameworks */,
+				38169A00172268AE007E5B44 /* CFNetwork.framework in Frameworks */,
 				381699C317225BAF007E5B44 /* UIKit.framework in Frameworks */,
 				381699C517225BAF007E5B44 /* Foundation.framework in Frameworks */,
 				381699C717225BAF007E5B44 /* CoreGraphics.framework in Frameworks */,
@@ -56,6 +188,21 @@
 		381699B617225BAF007E5B44 = {
 			isa = PBXGroup;
 			children = (
+				388EA398172914AF0078073D /* MessageUI.framework */,
+				388EA3771728F4710078073D /* AFNetworking */,
+				388EA2901728ED210078073D /* Security.framework */,
+				388EA1671727B9E80078073D /* andy.jpg */,
+				388EA1651727B8470078073D /* Integrations */,
+				38169A6017263F6C007E5B44 /* Accounts */,
+				38169A6817264EC2007E5B44 /* Folders */,
+				38169A6217263F8A007E5B44 /* General */,
+				38169A1C17226B41007E5B44 /* libcrypto.a */,
+				38169A1A17226B37007E5B44 /* libsasl2.a */,
+				388EA14F172664AF0078073D /* Messages */,
+				38169A1817226B27007E5B44 /* libssl.a */,
+				38169A01172268BA007E5B44 /* libiconv.dylib */,
+				38169A0317226AE2007E5B44 /* MailCore.xcodeproj */,
+				381699FF172268AE007E5B44 /* CFNetwork.framework */,
 				381699CA17225BAF007E5B44 /* UberMail */,
 				381699C117225BAF007E5B44 /* Frameworks */,
 				381699C017225BAF007E5B44 /* Products */,
@@ -106,6 +253,125 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		38169A0A17226AFE007E5B44 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				38169A1017226AFE007E5B44 /* MailCore.framework */,
+				38169A1217226AFE007E5B44 /* libmailcore.a */,
+				38169A1417226AFE007E5B44 /* Tests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		38169A6017263F6C007E5B44 /* Accounts */ = {
+			isa = PBXGroup;
+			children = (
+				381699E417225BFB007E5B44 /* LQBAccountViewController.h */,
+				381699E517225BFB007E5B44 /* LQBAccountViewController.m */,
+				381699E617225BFB007E5B44 /* LQBAccountViewController.xib */,
+				381699E917226199007E5B44 /* LQBNewAccountViewController.h */,
+				381699EA17226199007E5B44 /* LQBNewAccountViewController.m */,
+				381699EB17226199007E5B44 /* LQBNewAccountViewController.xib */,
+			);
+			name = Accounts;
+			sourceTree = "<group>";
+		};
+		38169A6217263F8A007E5B44 /* General */ = {
+			isa = PBXGroup;
+			children = (
+				38169A6317263FBA007E5B44 /* LQBLoadingView.h */,
+				38169A6417263FBA007E5B44 /* LQBLoadingView.m */,
+				38169A66172641BF007E5B44 /* LoadingView.xib */,
+			);
+			name = General;
+			sourceTree = "<group>";
+		};
+		38169A6817264EC2007E5B44 /* Folders */ = {
+			isa = PBXGroup;
+			children = (
+				38169A6917264F52007E5B44 /* LQBFolderListController.h */,
+				38169A6A17264F52007E5B44 /* LQBFolderListController.m */,
+			);
+			name = Folders;
+			sourceTree = "<group>";
+		};
+		388EA14F172664AF0078073D /* Messages */ = {
+			isa = PBXGroup;
+			children = (
+				388EA15A172797D60078073D /* Detail */,
+				388EA159172797C30078073D /* List */,
+			);
+			name = Messages;
+			sourceTree = "<group>";
+		};
+		388EA159172797C30078073D /* List */ = {
+			isa = PBXGroup;
+			children = (
+				388EA157172785B50078073D /* LQBMessageListCell.m */,
+				388EA151172664CC0078073D /* LQBMessageListViewController.h */,
+				388EA152172664CC0078073D /* LQBMessageListViewController.m */,
+				388EA154172783C10078073D /* MessageListCell.xib */,
+				388EA156172785B50078073D /* LQBMessageListCell.h */,
+			);
+			name = List;
+			sourceTree = "<group>";
+		};
+		388EA15A172797D60078073D /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+				388EA15B172798630078073D /* LQBMessageDetailViewController.h */,
+				388EA15C172798630078073D /* LQBMessageDetailViewController.m */,
+				388EA15D172798630078073D /* LQBMessageDetailViewController.xib */,
+			);
+			name = Detail;
+			sourceTree = "<group>";
+		};
+		388EA1651727B8470078073D /* Integrations */ = {
+			isa = PBXGroup;
+			children = (
+				388EA1661727B8600078073D /* People */,
+				388EA3941728FBB90078073D /* SugarRest.h */,
+				388EA3951728FBB90078073D /* SugarRest.m */,
+			);
+			name = Integrations;
+			sourceTree = "<group>";
+		};
+		388EA1661727B8600078073D /* People */ = {
+			isa = PBXGroup;
+			children = (
+				388EA1601727B83E0078073D /* LQBPersonViewController.h */,
+				388EA1611727B83E0078073D /* LQBPersonViewController.m */,
+				388EA1621727B83E0078073D /* LQBPersonViewController.xib */,
+			);
+			name = People;
+			sourceTree = "<group>";
+		};
+		388EA3771728F4710078073D /* AFNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				388EA3781728F4710078073D /* AFHTTPClient.h */,
+				388EA3791728F4710078073D /* AFHTTPClient.m */,
+				388EA37A1728F4710078073D /* AFHTTPRequestOperation.h */,
+				388EA37B1728F4710078073D /* AFHTTPRequestOperation.m */,
+				388EA37C1728F4710078073D /* AFImageRequestOperation.h */,
+				388EA37D1728F4710078073D /* AFImageRequestOperation.m */,
+				388EA37E1728F4710078073D /* AFJSONRequestOperation.h */,
+				388EA37F1728F4710078073D /* AFJSONRequestOperation.m */,
+				388EA3801728F4710078073D /* AFNetworkActivityIndicatorManager.h */,
+				388EA3811728F4710078073D /* AFNetworkActivityIndicatorManager.m */,
+				388EA3821728F4710078073D /* AFNetworking.h */,
+				388EA3831728F4710078073D /* AFPropertyListRequestOperation.h */,
+				388EA3841728F4710078073D /* AFPropertyListRequestOperation.m */,
+				388EA3851728F4710078073D /* AFURLConnectionOperation.h */,
+				388EA3861728F4710078073D /* AFURLConnectionOperation.m */,
+				388EA3871728F4710078073D /* AFXMLRequestOperation.h */,
+				388EA3881728F4710078073D /* AFXMLRequestOperation.m */,
+				388EA3891728F4710078073D /* UIImageView+AFNetworking.h */,
+				388EA38A1728F4710078073D /* UIImageView+AFNetworking.m */,
+			);
+			path = AFNetworking;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -120,6 +386,8 @@
 			buildRules = (
 			);
 			dependencies = (
+				38169A2417226F00007E5B44 /* PBXTargetDependency */,
+				38169A1F17226B6A007E5B44 /* PBXTargetDependency */,
 			);
 			name = UberMail;
 			productName = UberMail;
@@ -146,12 +414,42 @@
 			mainGroup = 381699B617225BAF007E5B44;
 			productRefGroup = 381699C017225BAF007E5B44 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 38169A0A17226AFE007E5B44 /* Products */;
+					ProjectRef = 38169A0317226AE2007E5B44 /* MailCore.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				381699BE17225BAF007E5B44 /* UberMail */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		38169A1017226AFE007E5B44 /* MailCore.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = MailCore.framework;
+			remoteRef = 38169A0F17226AFE007E5B44 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		38169A1217226AFE007E5B44 /* libmailcore.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libmailcore.a;
+			remoteRef = 38169A1117226AFE007E5B44 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		38169A1417226AFE007E5B44 /* Tests.octest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = Tests.octest;
+			remoteRef = 38169A1317226AFE007E5B44 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		381699BD17225BAF007E5B44 /* Resources */ = {
@@ -162,6 +460,14 @@
 				381699D717225BAF007E5B44 /* Default.png in Resources */,
 				381699D917225BAF007E5B44 /* Default@2x.png in Resources */,
 				381699DB17225BAF007E5B44 /* Default-568h@2x.png in Resources */,
+				381699E817225BFB007E5B44 /* LQBAccountViewController.xib in Resources */,
+				381699ED17226199007E5B44 /* LQBNewAccountViewController.xib in Resources */,
+				38169A0417226AE2007E5B44 /* MailCore.xcodeproj in Resources */,
+				38169A67172641BF007E5B44 /* LoadingView.xib in Resources */,
+				388EA155172783C10078073D /* MessageListCell.xib in Resources */,
+				388EA15F172798630078073D /* LQBMessageDetailViewController.xib in Resources */,
+				388EA1641727B83F0078073D /* LQBPersonViewController.xib in Resources */,
+				388EA1681727B9E80078073D /* andy.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -175,10 +481,41 @@
 				381699D117225BAF007E5B44 /* main.m in Sources */,
 				381699D517225BAF007E5B44 /* LQBAppDelegate.m in Sources */,
 				381699DE17225BAF007E5B44 /* UberMail.xcdatamodeld in Sources */,
+				381699E717225BFB007E5B44 /* LQBAccountViewController.m in Sources */,
+				381699EC17226199007E5B44 /* LQBNewAccountViewController.m in Sources */,
+				38169A6517263FBA007E5B44 /* LQBLoadingView.m in Sources */,
+				38169A6B17264F52007E5B44 /* LQBFolderListController.m in Sources */,
+				388EA153172664CC0078073D /* LQBMessageListViewController.m in Sources */,
+				388EA158172785B50078073D /* LQBMessageListCell.m in Sources */,
+				388EA15E172798630078073D /* LQBMessageDetailViewController.m in Sources */,
+				388EA1631727B83F0078073D /* LQBPersonViewController.m in Sources */,
+				388EA38B1728F4710078073D /* AFHTTPClient.m in Sources */,
+				388EA38C1728F4710078073D /* AFHTTPRequestOperation.m in Sources */,
+				388EA38D1728F4710078073D /* AFImageRequestOperation.m in Sources */,
+				388EA38E1728F4710078073D /* AFJSONRequestOperation.m in Sources */,
+				388EA38F1728F4710078073D /* AFNetworkActivityIndicatorManager.m in Sources */,
+				388EA3901728F4710078073D /* AFPropertyListRequestOperation.m in Sources */,
+				388EA3911728F4710078073D /* AFURLConnectionOperation.m in Sources */,
+				388EA3921728F4710078073D /* AFXMLRequestOperation.m in Sources */,
+				388EA3931728F4710078073D /* UIImageView+AFNetworking.m in Sources */,
+				388EA3961728FBB90078073D /* SugarRest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		38169A1F17226B6A007E5B44 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "MailCore iOS";
+			targetProxy = 38169A1E17226B6A007E5B44 /* PBXContainerItemProxy */;
+		};
+		38169A2417226F00007E5B44 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MailCore;
+			targetProxy = 38169A2317226F00007E5B44 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		381699CD17225BAF007E5B44 /* InfoPlist.strings */ = {
@@ -253,6 +590,11 @@
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "UberMail/UberMail-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"\"$(BUILT_PRODUCTS_DIR)/../../MailCore\"/**",
+					"\"$(BUILT_PRODUCTS_DIR)/../../MailCore/Source\"/**",
+					"$(BUILT_PRODUCTS_DIR)/../../include/**",
+				);
 				INFOPLIST_FILE = "UberMail/UberMail-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
@@ -264,6 +606,11 @@
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "UberMail/UberMail-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"\"$(BUILT_PRODUCTS_DIR)/../../MailCore/Source\"/**",
+					"\"$(BUILT_PRODUCTS_DIR)/../../MailCore\"/**",
+					"$(BUILT_PRODUCTS_DIR)/../../include/**",
+				);
 				INFOPLIST_FILE = "UberMail/UberMail-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
@@ -289,6 +636,7 @@
 				381699E317225BAF007E5B44 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

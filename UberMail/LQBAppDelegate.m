@@ -7,6 +7,10 @@
 //
 
 #import "LQBAppDelegate.h"
+#import "LQBAccountViewController.h"
+#import "SugarRest.h"
+
+@class LQBAccountViewController;
 
 @implementation LQBAppDelegate
 
@@ -16,9 +20,19 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    NSLog(@"got launch");
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
+    
+    //Initalize our Sugar rest client, it needs to perform some logins behind the scenes so we'll have
+    //to thread this correctly later.
+    SugarRest * sr = [SugarRest sharedInstance];
+    
+    LQBAccountViewController * accounts = [[LQBAccountViewController alloc] init];
+    UINavigationController * mainNav = [[UINavigationController alloc] initWithRootViewController: accounts];
+    
+    self.window.rootViewController = mainNav;
     [self.window makeKeyAndVisible];
     return YES;
 }
